@@ -1,0 +1,96 @@
+#nive-l {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nivel-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#nivel-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nivel-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nivel-5 {
+    display: flex;
+    align-items: flex-end;
+}
+
+#nivel-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nivel-7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#nivel-8 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#nivel-9 {
+    display: flex;
+    flex-direction: column;
+}
+
+#nivel-10 {
+    display: flex;
+    justify-content: flex-end; 
+    flex-direction: row-reverse;
+}
+
+#nivel-11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#nivel-12 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+#nivel-13 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#nivel-14 {
+    display: flex;
+}
+.yellow {
+  order: 3;
+}
+
+#nivel-15 {
+    display: flex;
+}
+.red {
+  order: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
