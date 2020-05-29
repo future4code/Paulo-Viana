@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+
+.logo img {
+    width: 200px;
+}
+
+.minha-conta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.minha-conta button {
+    padding: 8px;
+    width: 100px;
+    background-color: #4287f5;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+input {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.carrosel-novidades {
+    background-color: #ccc;
+    height: 300px;
+}
+
+
+
+
