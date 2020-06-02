@@ -1,0 +1,22 @@
+ /* -- AAAAAAAAAA -- */
+let GRAUS_FAHRENHEIT1 = 77
+const KELVIN = (GRAUS_FAHRENHEIT1 - 32) * 5 / 9 + 273.15
+console.log(KELVIN)
+
+ 
+/* -- BBBBBBBBBB -- */
+ let GRAUS_CELSIUS80 = 80
+ const GRAUS_FAHRENHEIT2 = GRAUS_CELSIUS80 * 9 / 5 + 32
+ console.log(GRAUS_FAHRENHEIT2)
+
+
+ /* -- CCCCCCCCCC -- */
+ let GRAUS_CELSIUS30 = 30
+ const GRAUS_FAHRENHEIT3 = GRAUS_CELSIUS30 * 9 / 5 + 32
+ console.log(GRAUS_FAHRENHEIT3)
+
+ const KELVIN30C = (GRAUS_FAHRENHEIT3 - 32) * 5 / 9 + 273.15
+ console.log(KELVIN30C)
+
+
+ /* -- DDDDDDDDDD -- */
