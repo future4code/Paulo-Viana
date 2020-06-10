@@ -1,0 +1,42 @@
+/* -- reset do css e configurações gerais --  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* -- minhas estilizações --  */
+.container > * {
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    justify-content: center;
+}
+
+main > div {
+    border: 1px dashed black;
+    /* border-bottom: 0;
+    border-top: 0; */
+    min-height: 25vh;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    min-width: 400px;
+    font-size: 30px
+}
+
+
