@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap">
+        <script src="index.js" defer></script>
+        <title>Aula 16 - Callback e Funções de Array</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="container-header"></h1>
+        </header>
+        
+        <main>
+            <div id="input">
+                <label for="">Valor:</label>
+                <input type="text" value="" id="input-valor">
+                <button onclick="addItem1()">Adicionar</button>
+                <div id="lista-de-itens1"></div>
+                
+            </div>
+            
+            <div id="input">
+                <label for="">Tipo de Despesa:</label>
+                <select name="diaDaSemana" id="diaDaSemana">
+                    <option value="">Casa</option>
+                    <option value="">Supermercado</option>
+                    <option value="">Transporte</option>
+                </select>
+                <button onclick="addItem2()">Adicionar</button>
+                <ul id="lista-de-itens2">
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
+
+
+
