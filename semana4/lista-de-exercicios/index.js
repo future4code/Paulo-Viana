@@ -52,5 +52,40 @@ FuncaosemNome() // o alerte é apenas solcitado no browser?
 
 
 
+/* -- EXERCÍCIOS DE OBJETOS -- */
+/*
+1 - 
+Objeto => cria uma posição detalhada de um determinado objeto em si.
+let carro {
+	nome: 'Palio'
+	Cor: 'Vermelho'
+	Ano: 2019,
+}
+
+Array => É um tipo especial de objetos. Tem um conjunto de key-value
 
 
+2 -
+let obj = {
+    start: function(criaRetangulo){}
+}
+
+const criaRetangulo = (lado1, lado2) => {
+    console.log(lado1)
+    console.log(lado2)
+    console.log('Perímetro é = ' + (lado1 + lado2) * 2)
+    console.log('A área é = ' + (lado1 * lado2))
+}
+
+3 -
+let filme = {
+	nome: 'Bastardos Inglórios',
+	ano: '2009',
+    	diretor: 'Quentin Tarantino',
+    	ator1: 'Brad Pitt',
+    	ator2: 'Mélanie Laurent',
+}
+
+console.log('Venha assistir o filme ' + filme.nome + ', do ano' + filme.ano +', com o diretor ' + filme.diretor +
+' e estrelado pelos atores ' + filme.ator1 + ' e ' + filme.ator2 + '.')
+*/
