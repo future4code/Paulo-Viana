@@ -1,0 +1,44 @@
+/* -- reset do css e configurações gerais --  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    background-color: #B8FCF7;
+}
+
+/* -- estilização layout -- */
+/* #container-header {
+    width: 100vw;
+    height: 10vh;
+    background-color:rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#input {
+    margin: 20px 10px;
+}
+
+#input > label {
+    font-weight: 500;
+    margin-right: 10px;
+    
+}
+
+li {
+    font-weight: 350;
+    color: rgb(100, 100, 100);
+    
+}
+
+
