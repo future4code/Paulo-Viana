@@ -41,6 +41,14 @@ const triangulos = (medidaA, medidaB, medidaC) => {
 } */
 
 
+/* -- EXERCÍCIOS DE FUNÇÕES -- */
+/* 
+2 - 
+const FuncaosemNome = (parametro) => {
+    alert("Hello Future4")
+}
+FuncaosemNome() // o alerte é apenas solcitado no browser?
+*/
 
 
 
