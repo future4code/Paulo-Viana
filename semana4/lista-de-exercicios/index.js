@@ -18,6 +18,28 @@ logo o resultado é o próprio infinity
 */
 
 
+/* -- LÓGICA DE PROGRAMAÇÃO -- */
+/*
+2 - 
+a) true AND false AND false = false
+b) (condição false) + false = false OR false = false
+c) (true) AND (true) = true
+d) !(false) OR !(true) = true OR false = true
+e) (false) OR (true) = true
+
+4 - não consegui cehgar na lógica ou na forma correta de fazer, mas saiu essa função:
+const triangulos = (medidaA, medidaB, medidaC) => {
+    if(medidaA === medidaB && medidaA === medidaC && medidaB === medidaC) {
+        console.log('Triângulo Equilátero')
+    } else if(medidaA === medidaB && medidaA === medidaC && medidaB !== medidaC && medidaA !== medidaB && medidaA === medidaC) {
+        console.log('Triângulo Isósceles')
+    } else if (medidaA !== medidaB && medidaA !== medidaC && medidaB !== medidaC) {
+        console.log('Triângulo Escaleno')
+    } else {
+        console.log('Esse Triângulo não existe')
+    }
+} */
+
 
 
 
