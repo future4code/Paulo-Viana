@@ -1,0 +1,13 @@
+.centralizar {
+  display: block;
+  text-align: center;
+}
+
+.button {
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: pointer;
+  box-sizing: border-box;
+}
