@@ -1,71 +1,32 @@
-/*  ---  EXERCICIO 1  ---  */
+import { User } from './User';
+import { Customer } from './Customer';
 
-class User {
-  private id: string;
-  private email: string;
-  private name: string;
-  private password: string;
-
-  constructor(id: string, email: string, name: string, password: string) {
-    console.log('Chamando o construtor da classe User');
-    this.id = id;
-    this.email = email;
-    this.name = name;
-    this.password = password;
-  }
-
-  public getId(): string {
-    return this.id;
-  }
-
-  public getEmail(): string {
-    return this.email;
-  }
-
-  public getName(): string {
-    return this.name;
-  }
-}
-
-const PauloViana: User = new User(
+/*  ---  EXERCÍCIO 1  ---  */
+const newUser: User = new User(
   '1',
-  'paulo@gmail.com',
+  'pauloviana@gmail.com',
   'Paulo Viana',
-  '123456789',
+  '123456',
 );
+console.log(newUser.getId());
+console.log(newUser.getName());
+console.log(newUser.getEmail());
 
-const JuliaViana: User = new User(
+// Letra A => Não será possível pois na função contrutora não tem o método GET.
+// Letra B => Ela será chamada pelas mesmas quantidades de instâncias que eu criar.
+
+/*  ---  EXERCÍCIO 1  ---  */
+
+/*  ---  EXERCÍCIO 2  ---  */
+const newCustomer: Customer = new Customer(
   '2',
-  'julia@gmail.com',
-  'Júlia Viana',
-  '123456321',
+  'julia@yahoo.com.br',
+  'Júlia',
+  '456987',
+  '12369874521458',
 );
-console.log(PauloViana);
-console.log(JuliaViana);
 
-// A => Conseguir instanciar a senha como string
-// B => Ela chama 2 vez mostrando que vai começar a construção do new users. A cada novo usuário ela será chamada.
-/*  ---  EXERCICIO 1  ---  */
+// Letra A => Uma única vez.
+// Letra B => 2 veze. Toda vez que chamamos o cosntrutor da clase filha, chamamos também o construto da classe pai.
 
-/*  ---  EXERCICIO 2  ---  */
-class Customer extends User {
-  public purchaseTotal: number = 0;
-  private creditCard: string;
-
-  constructor(
-    id: string,
-    email: string,
-    name: string,
-    password: string,
-    creditCard: string,
-  ) {
-    super(id, email, name, password);
-    console.log('Chamando o construtor da classe Customer');
-    this.creditCard = creditCard;
-  }
-
-  public getCreditCard(): string {
-    return this.creditCard;
-  }
-}
-/*  ---  EXERCICIO 2  ---  */
+/*  ---  EXERCÍCIO 2  ---  */
