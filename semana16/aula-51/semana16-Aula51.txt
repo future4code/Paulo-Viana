@@ -1,0 +1,52 @@
+USE database_`turing-paulo-viana`
+
+CREATE TABLE Actor (
+    id VARCHAR(255) PRIMARY KEY,
+    name VARCHAR (255) NOT NULL,
+    salary FLOAT NOT NULL,
+    birth_date DATE NOT NULL,
+		gender VARCHAR(6) NOT NULL
+);
+
+
+### Exercício 1
+a) A resposta da pergunta é:
+id VARCHAR(255) no máximo 255 caracteres | PRIMARY KEY será a cahve primária da tabela
+name VARCHAR(255) no máximo 255 caracteres | NOT NULL a coluna não pode conter valor nulo
+salary FLOAT pode conter números não inteiros | NOT NULL a coluna não pode conter valor nulo
+birth_date DATE a data terá o formato 2020-09-08 | NOT NULL a coluna não pode conter valor nulo
+gender VARCHAR(6) no máximo 6 caracteres | NOT NULL a coluna não pode conter valor nulo
+
+b) A resposta da pergunta é:
+SHOW DATABASES apareceu o informatio_schema = turing-paulo-viana
+SHOW TABLES apareceu: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SHOW TABLES' at line 2
+
+c) A resposta da pergunta é:
+SHOW Actor  apareceu: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Actor' at line 1
+
+
+
+
+### Exercício 2
+
+INSERT INTO Actor (id, name, salary, birth_date)
+VALUES(
+  "001", 
+  "Tony Ramos",
+  400000,
+  "1948-08-25", 
+  "male"
+);
+
+a) A resposta da pergunta é:
+INSERT INTO Actor (id, name, salary, birth_date)
+VALUES(
+  "002", 
+  "Glória Pires",
+  1200,
+  "1963-08-23", 
+  "shemale"
+);
+
+
+
