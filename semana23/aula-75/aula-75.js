@@ -1,4 +1,4 @@
-/*   ---  ECERCÍCIO 01  ---   */
+/*   ---  EXERCÍCIO 01  ---   */
 
 export class LinkedList {
   constructor(public start?: LinkedListNode) { }
@@ -26,7 +26,7 @@ export class LinkedList {
   }
 }
 
-/*   ---  ECERCÍCIO 02  ---   */
+/*   ---  EXERCÍCIO 02  ---   */
 
 export class Stack {
   public nodes: (number | undefined)[] = [];
@@ -53,7 +53,7 @@ export class Stack {
   }
 }
 
-/*   ---  ECERCÍCIO 03  ---   */
+/*   ---  EXERCÍCIO 03  ---   */
 
 export class Queue {
   public nodes: LinkedList = new LinkedList();
